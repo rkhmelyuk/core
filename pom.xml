@@ -8,19 +8,8 @@
     <packaging>jar</packaging>
 
     <version>1.1.0</version>
-    <name>Prutsoft Core library. Contains core classes, tools and utilities</name>
+    <name>Contains tools and utilities</name>
     <description>The maven main core project description</description>
-    <url>http://www.prutsoft.com/projects/core</url>
-
-    <organization>
-        <name>Prutsoft</name>
-        <url>http://www.prutsoft.com</url>
-    </organization>
-
-    <issueManagement>
-        <url>http://jira.prutsoft.com/jira/browse/CORE</url>
-        <system>JIRA</system>
-    </issueManagement>
 
     <dependencies>
         <dependency>
@@ -30,13 +19,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-    <distributionManagement>
-        <repository>
-            <id>prutsoft-repo1</id>
-            <url>ftp://repo1.prutsoft.com/maven2/</url>
-        </repository>
-    </distributionManagement>
 
     <licenses>
         <license>
@@ -102,22 +84,8 @@
 
     <developers>
         <developer>
-            <id>rkhmelyuk</id>
             <name>Ruslan Khmelyuk</name>
-            <email>ruslan.khmelyuk@prutsoft.com</email>
-            <organization>Prutsoft</organization>
-            <roles>
-                <role>Developer</role>
-            </roles>
-        </developer>
-        <developer>
-            <id>rrava</id>
-            <name>Rostyslav Rava</name>
-            <email>rostyslav.rava@prutsoft.com</email>
-            <organization>Prutsoft</organization>
-            <roles>
-                <role>Developer</role>
-            </roles>
+            <email>ruslan.khmelyuk@gmail.com</email>
         </developer>
     </developers>
 
