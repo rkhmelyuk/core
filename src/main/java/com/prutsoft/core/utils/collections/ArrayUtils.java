@@ -24,7 +24,6 @@ import java.util.Collection;
 
 /**
  * @author Ruslan Khmelyuk
- * @version $Rev: 25 $
  * @since 2008-10-31 19:56
  */
 public class ArrayUtils {

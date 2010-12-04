@@ -26,7 +26,6 @@ import java.util.*;
  * The utils methods to work with maps.
  *
  * @author Ruslan Khmelyuk
- * @version $Rev: 26 $
  * @since 2008-11-02 02:14
  */
 public class MapUtils {

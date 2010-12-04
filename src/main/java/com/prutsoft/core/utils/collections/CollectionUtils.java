@@ -33,7 +33,6 @@ import java.util.Set;
  * Utils for Java collections.
  *
  * @author Ruslan Khmelyuk
- * @version $Rev: 25 $
  * @since 2008-8-13 1:33
  */
 public class CollectionUtils {

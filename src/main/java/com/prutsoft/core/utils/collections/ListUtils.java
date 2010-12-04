@@ -23,7 +23,6 @@ import java.util.*;
 
 /**
  * @author Ruslan Khmelyuk
- * @version $Rev: 25 $
  * @since 2008-11-02 02:08
  */
 public class ListUtils {

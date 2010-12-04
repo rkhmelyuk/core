@@ -27,13 +27,12 @@ import java.util.Collection;
  * be not added to result collection.
  *
  * @author Ruslan Khmelyuk
- * @version $Rev$
  * @since 2009-01-08 01:50
  */
 public final class GreaterThan<_T extends Comparable> extends AbstractFilter<_T> {
 
     /**
-     * The value used to fitler collection.
+     * The value used to filter collection.
      */
     private final _T value;
 

@@ -27,7 +27,6 @@ import java.util.Collection;
  * be not added to result collection.
  *
  * @author Ruslan Khmelyuk
- * @version $Rev$
  * @since 2009-01-08 01:50
  */
 public final class EqualTo<_T extends Comparable> extends AbstractFilter<_T> {

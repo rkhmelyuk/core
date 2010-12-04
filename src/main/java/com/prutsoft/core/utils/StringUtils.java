@@ -24,7 +24,6 @@ import com.prutsoft.core.asserts.ArgumentAssert;
  * The utils method to work with strings.
  *
  * @author Ruslan Khmelyuk
- * @version $Rev: 26 $
  * @since 2008-8-13 1:33
  */
 public class StringUtils {

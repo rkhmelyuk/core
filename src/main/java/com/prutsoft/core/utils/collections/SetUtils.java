@@ -27,7 +27,6 @@ import static com.prutsoft.core.utils.collections.ListUtils.listOf;
  * The utils for work with sets.
  *
  * @author Ruslan Khmelyuk
- * @version $Rev: 25 $
  * @since 2008-11-02 02:14
  */
 public class SetUtils {
