@@ -1,5 +1,5 @@
 /*
- * Copyright 2008-2010 Ruslan Khmelyuk, Prutsoft.
+ * Copyright 2008-2010 Ruslan Khmelyuk.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -174,15 +174,21 @@ public class StringUtils {
      * to the end of string. Cutting is made when the space (' ') character is placed; in such
      * case words are not break and stay complete.<br/>
      *
-     * @param stringToCut the string to cut; it cannot be null.
+     * If <code>stringToCut</code> is <code>null</code>, that <code>null</code> will be returned.
+     *
+     * @param stringToCut the string to cut.
      * @param maxLength   the length to cut the string.
      * @param suffix      the suffix to add to the cut string; it cannot be null.
      * @return if string to cut length is greater than max length than returns cut string,
      *         otherwise returns the original string.
      */
     public static String cut(@NotNull String stringToCut, int maxLength, @NotNull String suffix) {
-        ArgumentAssert.isNotNull(stringToCut, "String to cut cannot be null.");
-        ArgumentAssert.isNotNull(suffix, "Suffix cannot be null.");
+        if (stringToCut == null) {
+            return null;
+        }
+        if (suffix == null) {
+            return cut(stringToCut, maxLength);
+        }
 
         if (StringUtils.isNotEmptyTrimmed(stringToCut)) {
             String shortDescription = stringToCut.trim();

@@ -26,7 +26,6 @@ import java.util.Date;
  */
 public class ConversionUtils {
 
-
     /**
      * Gets integer value from string. If string is {@code null} or empty or is not number
      * the returns {@code null}.
