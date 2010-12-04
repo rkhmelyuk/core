@@ -1,5 +1,5 @@
 /*
- * Copyright 2008-2009 Ruslan Khmelyuk, Prutsoft.
+ * Copyright 2008-2009 Ruslan Khmelyuk.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,12 +16,12 @@
 
 package com.prutsoft.core.utils.collections;
 
-import static com.prutsoft.core.utils.collections.ListUtils.listOf;
-import static com.prutsoft.core.utils.collections.ListUtils.arrayList;
-
 import com.prutsoft.core.asserts.ArgumentAssert;
 
 import java.util.*;
+
+import static com.prutsoft.core.utils.collections.ListUtils.arrayList;
+import static com.prutsoft.core.utils.collections.ListUtils.listOf;
 
 /**
  * The utils for work with sets.

@@ -1,5 +1,5 @@
 /*
- * Copyright 2008-2009 Ruslan Khmelyuk, Prutsoft.
+ * Copyright 2008-2009 Ruslan Khmelyuk.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
 
 package com.prutsoft.core;
 
-import com.prutsoft.core.utils.ObjectUtils;
 import com.prutsoft.core.code.Warnings;
+import com.prutsoft.core.utils.ObjectUtils;
 
 import java.io.Serializable;
 
