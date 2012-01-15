@@ -11,6 +11,21 @@
     <name>Contains tools and utilities</name>
     <description>The maven main core project description</description>
 
+    <repositories>
+        <repository>
+            <id>maven.khmelyuk.com</id>
+            <url>http://maven.khmelyuk.com/repo</url>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>maven.khmelyuk.com</id>
+            <name>Repo on maven.khmelyuk.com</name>
+            <url>scp://maven.khmelyuk.com/home/maven/repo</url>
+        </repository>
+    </distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
