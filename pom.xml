@@ -3,11 +3,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.prutsoft</groupId>
-    <artifactId>prutsoft-core</artifactId>
+    <groupId>com.khmelyuk</groupId>
+    <artifactId>core</artifactId>
     <packaging>jar</packaging>
 
-    <version>1.1.1</version>
+    <version>1.1.2</version>
     <name>Contains tools and utilities</name>
     <description>The maven main core project description</description>
 
@@ -29,7 +29,7 @@
     </licenses>
 
     <build>
-        <finalName>prutsoft-core</finalName>
+        <finalName>khmelyuk-core</finalName>
 
         <plugins>
             <plugin>
