@@ -25,7 +25,7 @@ import com.khmelyuk.core.code.Warnings;
  * @author Ruslan Khmelyuk
  * @since 2008-8-13 01:48
  */
-public class ObjectUtils {
+public final class ObjectUtils {
 
     /**
      * Checks two values for equivalence.

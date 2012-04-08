@@ -16,12 +16,12 @@
 
 package com.khmelyuk.core.utils.collections;
 
-import static com.khmelyuk.core.utils.collections.ListUtils.arrayList;
-import static com.khmelyuk.core.utils.collections.ListUtils.listOf;
-
 import com.khmelyuk.core.asserts.ArgumentAssert;
 
 import java.util.*;
+
+import static com.khmelyuk.core.utils.collections.ListUtils.arrayList;
+import static com.khmelyuk.core.utils.collections.ListUtils.listOf;
 
 /**
  * The utils for work with sets.
@@ -29,7 +29,7 @@ import java.util.*;
  * @author Ruslan Khmelyuk
  * @since 2008-11-02 02:14
  */
-public class SetUtils {
+public final class SetUtils {
 
     /**
      * Gets collection as <code>HashSet</code>. If collection is of <code>HashSet</code> type

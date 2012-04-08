@@ -26,7 +26,7 @@ import java.io.InputStream;
  * @author Ruslan Khmelyuk
  * @since 2008-8-19 23:5
  */
-public class ClassLoaderUtils {
+public final class ClassLoaderUtils {
 
     /**
      * Loads the resource as {@code InputStream} and returns it.

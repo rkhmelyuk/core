@@ -24,7 +24,7 @@ import java.util.Date;
  * @author Ruslan Khmelyuk
  * @since 1.0.2, 2009-01-17 22:20
  */
-public class ConversionUtils {
+public final class ConversionUtils {
 
     /**
      * Gets integer value from string. If string is {@code null} or empty or is not number

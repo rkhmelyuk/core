@@ -26,7 +26,7 @@ import java.util.Collection;
  * @author Ruslan Khmelyuk
  * @since 2008-10-31 19:56
  */
-public class ArrayUtils {
+public final class ArrayUtils {
 
     /**
      * Returns an array of parameters.

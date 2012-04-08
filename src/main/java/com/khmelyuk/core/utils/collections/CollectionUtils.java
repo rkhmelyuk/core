@@ -35,7 +35,7 @@ import java.util.Set;
  * @author Ruslan Khmelyuk
  * @since 2008-8-13 1:33
  */
-public class CollectionUtils {
+public final class CollectionUtils {
 
     /**
      * Check whether collection is null or empty.

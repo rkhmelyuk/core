@@ -25,7 +25,7 @@ import java.util.Date;
  * @author Ruslan Khmelyuk
  * @since 1.0.2, 2009-01-17 22:18
  */
-public class CalendarUtils {
+public final class CalendarUtils {
 
     /**
      * Gets current date.

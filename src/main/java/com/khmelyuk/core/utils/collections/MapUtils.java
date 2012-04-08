@@ -28,7 +28,7 @@ import java.util.*;
  * @author Ruslan Khmelyuk
  * @since 2008-11-02 02:14
  */
-public class MapUtils {
+public final class MapUtils {
 
     /**
      * Checks whether map is empty or {@code null}.

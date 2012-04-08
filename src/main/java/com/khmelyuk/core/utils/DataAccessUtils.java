@@ -27,7 +27,7 @@ import java.sql.Statement;
  * @author Ruslan Khmelyuk
  * @since 2008-8-20 16:36
  */
-public class DataAccessUtils {
+public final class DataAccessUtils {
 
     /**
      * Close or try to close the connection.

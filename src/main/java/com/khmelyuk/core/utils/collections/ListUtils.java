@@ -25,7 +25,7 @@ import java.util.*;
  * @author Ruslan Khmelyuk
  * @since 2008-11-02 02:08
  */
-public class ListUtils {
+public final class ListUtils {
 
     /**
      * Returns the list that can be changes.

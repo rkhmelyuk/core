@@ -21,7 +21,7 @@ package com.khmelyuk.core.utils;
  * @author Ruslan Khmelyuk
  * @since 1.0.2, 2009-12-20 20:32
  */
-public class ValueUtils {
+public final class ValueUtils {
 
     /**
      * Returns <code>value</code> if it is not null. Otherwise returns <code>otherwise</code> value.
