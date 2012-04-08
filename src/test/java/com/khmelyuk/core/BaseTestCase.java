@@ -19,7 +19,7 @@ public abstract class BaseTestCase extends TestCase {
     }
 
     /**
-     * Unexpected situation happend.
+     * Unexpected situation happened.
      * @param message the fail message.
      */
     protected void unexpected(String message) {
